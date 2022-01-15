@@ -1,11 +1,12 @@
 def palindrom(wyraz):
-    lista_liter = list(palindrom)
-    for litera in palindrom:
-      return(bool(litera[0]==litera[-1])) 
-if (palindrom(2)):
-    print("palindrom")
-else:
-    print("to nie palindrom")
+    lista_liter = list(wyraz)
+    
+    wynik = (bool(lista_liter[0]==lista_liter[-1])) 
 
-palindrom("odo")
+    if wynik == True:
+        print("To jest palindrom")
+    else:
+        print("To nie jest palindrom")
+
+palindrom("saghj")
 
